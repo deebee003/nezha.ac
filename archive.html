@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nezha HvH – Clients</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{--chroma:linear-gradient(90deg,#ff0080,#ff4000,#ffcc00,#00ff88,#00ccff,#8844ff,#ff0080);--chroma-text:linear-gradient(90deg,#ff66bb,#ff8844,#ffdd55,#44ffaa,#44ddff,#aa66ff,#ff66bb)}
+@keyframes chromaShift{0%{background-position:0% 50%}100%{background-position:200% 50%}}
+@keyframes fadeUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Inter',sans-serif;background:#000;color:#f0f0f0}
+a{text-decoration:none;color:inherit}
+
+header{background:rgba(0,0,0,0.9);padding:18px 40px;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:100;backdrop-filter:blur(10px);border-bottom:1px solid #111;position:relative}
+header::after{content:'';position:absolute;bottom:-2px;left:0;right:0;height:2px;background:var(--chroma);background-size:200% auto;animation:chromaShift 4s linear infinite}
+.logo{font-size:20px;font-weight:700;background:var(--chroma-text);background-size:200% auto;-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;animation:chromaShift 4s linear infinite}
+nav a{margin-left:16px;color:#999;font-size:13px;font-weight:500;transition:color 0.2s}
+nav a:hover{color:#fff}
+
+.page-header{padding:60px 40px 40px;text-align:center;animation:fadeUp 0.7s ease}
+.page-header h1{font-size:40px;font-weight:700;background:var(--chroma-text);background-size:200% auto;-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;animation:chromaShift 4s linear infinite;margin-bottom:10px}
+.page-header p{color:#666;font-size:14px}
+
+.container{max-width:860px;margin:auto;padding:10px 20px 60px}
+
+.card{background:#080808;border-radius:8px;padding:20px 24px;margin-bottom:12px;border:1px solid #1a1a1a;transition:all 0.2s;display:flex;justify-content:space-between;align-items:center;gap:16px;position:relative;overflow:hidden}
+.card::before{content:'';position:absolute;left:0;top:0;bottom:0;width:2px;background:var(--chroma);background-size:auto 200%;animation:chromaShift 4s linear infinite;opacity:0;transition:opacity 0.2s}
+.card:hover{border-color:#2a2a2a;background:#0d0d0d;transform:translateX(3px)}
+.card:hover::before{opacity:1}
+
+.card-title{font-size:15px;font-weight:600;color:#e0e0e0}
+.card-meta{font-size:12px;color:#555;margin-top:4px}
+
+.btn-chroma{display:inline-block;padding:9px 20px;font-size:13px;font-weight:600;border-radius:5px;background:var(--chroma);background-size:200% auto;animation:chromaShift 4s linear infinite;color:#000;text-decoration:none;transition:opacity 0.2s;white-space:nowrap;border:none;cursor:pointer}
+.btn-chroma:hover{opacity:0.8}
+
+footer{background:#000;padding:20px;text-align:center;color:#333;font-size:12px;position:relative;border-top:1px solid #0d0d0d}
+footer::before{content:'';position:absolute;top:-1px;left:0;right:0;height:1px;background:var(--chroma);background-size:200% auto;animation:chromaShift 4s linear infinite}
+
+@media(max-width:768px){header{flex-direction:column;gap:10px}.page-header h1{font-size:28px}.card{flex-direction:column;align-items:flex-start}}
+</style>
+</head>
+<body><a href="cdn-cgi/content%3Fid=XzZv631AWgJJ63Hw.YA4sczjANxvlcu4uUx2bzEXsrU-1789515922.4535613-1.2.1.1-Q4IhATJXOm3FryqqpUvJ5KkZAfOBMeENli0JpTWYkvvjk24El4W2LowJAumqfUf2.html" aria-hidden="true" rel="nofollow noopener" style="display: none !important; visibility: hidden !important"></a>
+
+<header>
+  <div class="logo">Nezha HvH</div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="clients.html">Clients</a>
+    <a href="http://nezha.ac/configs.html">Configs</a>
+    <a href="archive.html">Archives</a>
+    <a href="index.html#server">Server Info</a>
+    <a href="https://discord.com/invite/2MjzAjPgBz">Discord</a>
+  </nav>
+</header>
+
+<div class="page-header">
+  <h1>HvH Configs</h1>
+  <p>Download a config for your respective client</p>
+</div>
+
+<div class="container">
+
+  <div class="card">
+    <div>
+      <div class="card-title">Hovac</div>
+
+    </div>
+    <a class="btn-chroma" href="https://hovac.top/" target="_blank">Download</a>
+  </div>
+
+  <div class="card">
+    <div>
+      <div class="card-title">Nezha Archive</div>
+
+    </div>
+    <a class="btn-chroma" href="https://www.mediafire.com/folder/yhyoicwk93s2t/Nezha+Internal+Archive" target="_blank">Download</a>
+  </div>
+
+  <div class="card">
+    <div>
+      <div class="card-title">Ripple</div>
+    </div>
+    <a class="btn-chroma" href="https://www.mediafire.com/file/t7y9d1efv9c9hs5/hglpxa.7z/file" target="_blank">Download</a>
+  </div>
+
+  <div class="card">
+    <div>
+      <div class="card-title">Diablo-X</div>
+
+    </div>
+    <a class="btn-chroma" href="https://github.com/Reowya/diablo-x-src/releases/tag/src" target="_blank">Download</a>
+  </div>
+
+  <div class="card">
+    <div>
+      <div class="card-title">MCHCCe</div>
+
+    </div>
+    <a class="btn-chroma" href="https://discord.com/invite/jvCZdaHr5B" target="_blank">Download</a>
+  </div>
+
+  <div class="card">
+    <div>
+      <div class="card-title">MCC</div>
+
+    </div>
+    <a class="btn-chroma" href="https://discord.com/invite/X6RqPCzf5g" target="_blank">Download</a>
+  </div>
+  <div class="card">
+    <div>
+      <div class="card-title">Wonderland</div>
+
+    </div>
+    <a class="btn-chroma" href="https://wonderland.ac/home" target="_blank">Download</a>
+  </div>
+
+</div>
+
+<footer>© 2026 Nezha HvH</footer>
+
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a3bb81335e38fdc9',t:'MTc4OTUxNTkyMg=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
